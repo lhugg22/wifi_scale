@@ -6,4 +6,8 @@ About to test the configuration of the scale talking to ESP8266. Initially I am 
 	to a web server so measurements can be read remotely.
 
 Status:
-	first commit
+	have tested the configuration.io file. may be working?
+	switching between DOUT = 5 and CLK = 4 and the opposite
+		with DOUT = 4 && CLK = 5 ==== zero factor = 0;
+		with DOUT = 5 && CLK = 4 ==== zero factor = 8388607;
+			but the lbs never change with more weight on the scale.

@@ -28,13 +28,14 @@
  Most any pin on the Arduino Uno will be compatible with DOUT/CLK.
 
  The HX711 board can be powered from 2.7V to 5V so the Arduino 5V power should be fine.
-
 */
+
+
 
 #include "HX711.h"
 
-#define DOUT  3
-#define CLK  2
+#define DOUT  5
+#define CLK  4
 
 HX711 scale;
 
